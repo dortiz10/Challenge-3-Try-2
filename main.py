@@ -39,7 +39,13 @@ print(reversedText)
 print(''.join(text))
 
 # 5. The system will tell us if the word “python” is inside the text. This part can be a bit complicated to imagine, but I'll give you a hint: you can use Booleans to make your enquiry and a dictionary to find ways to express your answer.
+#using if statements
 if "python" in ("" + text + ""):
     print("Python is in the text")
 else:
     print("Python is not in the text")
+
+#using booleans
+text4 = text
+inText = "python" in text4 
+print(inText)
