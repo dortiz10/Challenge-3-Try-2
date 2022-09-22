@@ -48,4 +48,5 @@ else:
 #using booleans
 text4 = text
 inText = "python" in text4 
+print(type(inText))
 print(inText)
